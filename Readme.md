@@ -20,22 +20,16 @@ export PATH="$(yarn global bin):$PATH"
 6. copy the HTTPS link which in this case is https://github.com/vsprakash2003/Nodejs_playground.git
 ```
 
-### to create develop branch
+### to create develop branch and push
 ```git commands
 git init
 git checkout -b origin/develop
 git add .
 git commit -m "first commit"
+git remote add origin https://github.com/vsprakash2003/Nodejs_playground.git
 git push -u origin origin/develop
 ```
-### to commit to develop branch
-```git commands
-git init
-git add .
-git commit -m "second commit"
-git remote add origin https://github.com/vsprakash2003/Nodejs_playground.git
-git push -u origin develop 
-```
+
 ### for approving pull request and merging to master branch
 ``` PR instructions
 click on Pull requests tab in github. If there is a PR waiting for approval you will see one
